@@ -1,0 +1,26 @@
+{
+    "name": "bcs-svg-logo-maker",
+    "version": "1.0.0",
+    "description": "Svg Logo Maker",
+    "main": "index.js",
+    "directories": {
+        "example": "examples",
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/febres0492/bcs-svg-logo-maker.git"
+    },
+    "author": "Carlos Febres",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/febres0492/bcs-svg-logo-maker/issues"
+    },
+  "homepage": "https://github.com/febres0492/bcs-svg-logo-maker#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
