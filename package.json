@@ -23,6 +23,8 @@
     },
     "homepage": "https://github.com/febres0492/bcs-svg-logo-maker#readme",
     "devDependencies": {
+        "@babel/core": "^7.24.5",
+        "@babel/preset-env": "^7.24.5",
         "jest": "^29.7.0"
     },
     "dependencies": {

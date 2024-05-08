@@ -1,0 +1,5 @@
+// this is to fix shapes.test.js imports
+{
+    "presets": ["@babel/preset-env"]
+}
+  
