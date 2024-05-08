@@ -2,6 +2,7 @@
     "name": "bcs-svg-logo-maker",
     "version": "1.0.0",
     "description": "Svg Logo Maker",
+    "type": "module",
     "main": "index.js",
     "directories": {
         "example": "examples",
@@ -20,8 +21,11 @@
     "bugs": {
         "url": "https://github.com/febres0492/bcs-svg-logo-maker/issues"
     },
-  "homepage": "https://github.com/febres0492/bcs-svg-logo-maker#readme",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
+    "homepage": "https://github.com/febres0492/bcs-svg-logo-maker#readme",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "dependencies": {
+        "inquirer": "^9.2.20"
+    }
 }
