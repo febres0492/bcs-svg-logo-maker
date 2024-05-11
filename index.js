@@ -18,7 +18,7 @@ const questions = [
     },
 ]
 
-const res = { text: 'fds', text_color: 'red', shape: 'Triangle', shape_color: 'red' }
+const res = { text: 'fds', text_color: 'red', shape: 'Circle', shape_color: 'red' }
 U.createFile(res)
 
 // inquirer.prompt(questions).then((res) => {
