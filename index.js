@@ -8,6 +8,10 @@ const questions = [
         message: `What are the ${c('Initials')} for the Logo. ${c('(3 characters max)','y')}:\n`,
         validate: input => U.validateInput(input)
     },
+    { name: 'stack_letters', type: 'list', message: `Do you want to ${c('stack the first letter')}?\n`,
+        choices: ['no','yes'],
+        when: (answers) => answers.text.length > 1
+    },
     { name: 'text_color' , type: 'input', 
         message: `What is the ${c('Text Color')}? ${c('( #Hexadecimal Number or Color name )','y')}:\n`,
         validate: input => U.validateColor(input)
@@ -18,21 +22,7 @@ const questions = [
     },
 ]
 
-const res = { text: 'fds', text_color: 'red', shape: 'Circle', shape_color: 'red' }
-U.createFile(res)
-
-// inquirer.prompt(questions).then((res) => {
-//     console.log(res)
-//     console.log('create file logo.svg 300x200')
-//     U.createFile()
-//     // const shape = U[]
-//     console.log('step: create file logo.svg')
-//     console.log(`print: Generated logo.svg`)
-// })
-
-
-// ------------------------------------------------------------
-// to do next google logic to create svg shapes
-
-
-
+inquirer.prompt(questions).then((res) => {
+    U.createFile(res)
+    console.log(`print: Generated logo.svg`)
+})
