@@ -24,5 +24,4 @@ const questions = [
 
 inquirer.prompt(questions).then((res) => {
     U.createFile(res)
-    console.log(`print: Generated logo.svg`)
 })
