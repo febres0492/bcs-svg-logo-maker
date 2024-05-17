@@ -4,10 +4,9 @@
 
 ## Description
 
-This is a description
-Lorem sed voluptua voluptua sit diam lorem, clita sadipscing et nonumy vero dolore eos sit et, takimata sanctus takimata et est aliquyam et. Sea et sed consetetur ea amet sit amet at sit, consetetur ut est et et takimata lorem.
+This is a simple SVG Logo maker
 
-Live Demo: https://example.com
+Live Demo: [Bcs-svg-logo-maker demo](https://drive.google.com/file/d/1KYtm6smAa3rsaZN7-zLfK3G8VYeNR2bB/view)
 
 
 ## Table of Content
@@ -24,7 +23,7 @@ Live Demo: https://example.com
 
 ## Getting Started
 
-This section will guide you through setting up the project locally. By the end of this guide, you will have a working version of My Project running on your machine.
+This section will guide you through setting up the project locally. <br>By the end of this guide, you will have a working version of My Project running on your machine.
 
 ### Prerequisites
 
@@ -48,14 +47,14 @@ npm install
 
 
 ## Usage
-Follow these steps:
+Run this command in the terminal:
 ```bash
 npm start
 ```
 
 
 ## Test Instructions
-Follow these steps:
+Run this command in the terminal:
 ```bash
 npm test
 ```
@@ -71,8 +70,8 @@ Contributions are welcome
 
 ## Questions
 For questions please get in contant:  
-**Github** Profile: https://github.com/Example123  
-**Email**: Example123@gmail.com
+**Github** Profile: https://github.com/Febres0492  
+**Email**: Febres0492@gmail.com
 
 
 ## License
