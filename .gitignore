@@ -1,4 +1,4 @@
-examples/*.svg
+output/*.svg
 
 # Logs
 logs
