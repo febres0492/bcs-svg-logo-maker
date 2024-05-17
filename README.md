@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a simple SVG Logo maker
+This is a simple SVG Logo maker. 
 
 Live Demo: [Bcs-svg-logo-maker demo](https://drive.google.com/file/d/1KYtm6smAa3rsaZN7-zLfK3G8VYeNR2bB/view)
 
@@ -51,6 +51,9 @@ Run this command in the terminal:
 ```bash
 npm start
 ```
+>![NOTE](https://img.shields.io/badge/<<_NOTE_>>-blue.svg)  
+>Logos created will be in `output folder`
+
 
 
 ## Test Instructions
