@@ -22,8 +22,6 @@ const questions = [
     },
 ]
 
-U.createFile({text:'SVG', stack_letters: 'no', text_color:'#00000080', shape:'Triangle', shape_color: 'lightblue'})
-
-// inquirer.prompt(questions).then((res) => {
-//     U.createFile(res)
-// })
+inquirer.prompt(questions).then((res) => {
+    U.createFile(res)
+})
