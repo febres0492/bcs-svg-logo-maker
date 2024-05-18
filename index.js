@@ -23,5 +23,8 @@ const questions = [
 ]
 
 inquirer.prompt(questions).then((res) => {
+    // triangle has padding by default to pass the test requirements. 
+    // Set res.padding = false to get a triangle without padding
+    // res.padding = false
     U.createFile(res)
 })
